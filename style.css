@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background-color: #77C9D4
+}
+
+main {
+	height:100vh;
+	width: 100%;
+}
+
+main {
+	display:flex;
+	flex-direction: column-reverse;
+}
+
+.bars {
+	height:100%;
+
+
+
+    transition: height 3s linear/*cubic-bezier(0.1, 0.7, 1.0, 0.1)*/,
+    			background-color 1s;
+
+	background-color: #57BC90;
+	flex-grow: 1;
+}
+
+#bar-wrapper {
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+    height:100%;
+}
