@@ -18,7 +18,7 @@ function resizeBars (){
 
 	BARS.forEach(bar => {
 		bar.style.height = `${setHeight()}%`;
-		//bar.style.background = `rgb(${randomVal()},${randomVal()},${randomVal()})`;
+		bar.style.background = `rgb(${randomVal()},${randomVal()},${randomVal()})`;
 	})
 };
 
